@@ -16,4 +16,5 @@ for x in range(count):
     htm = urllib.urlopen(link).read()
     soup = BeautifulSoup(htm,"htm.parser")
     href = soup('a')
+    print('hp')
 
